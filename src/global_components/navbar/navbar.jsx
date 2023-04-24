@@ -3,12 +3,12 @@ import '/src/index.css'
 import logo from "/src/assets/images/mftlogo.png"
 
 function Navbar() {
-    const menubtn = document.querySelector("#menuBtn")
-    const mobileMenu = document.querySelector(".mobileMenu")
-  
-    menubtn.addEventListener("click", () => {
-      mobileMenu.classList.toggle("hidden")
-    })
+  const menubtn = document.querySelector("#menuBtn")
+  const mobileMenu = document.querySelector(".mobileMenu")
+
+  menubtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden")
+  }) 
 
     return (
       <nav className="bg-white py-3 px-5 border-b border-slate-200 shadow">
