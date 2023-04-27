@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from "../../layout/navbar/navbar"
 import Slider from "./layout/slider/slider"
+import AboutCards from './layout/aboutCards/about_cards'
 
 
 function  Home() {
@@ -8,6 +9,7 @@ function  Home() {
     <body>
       <header><Navbar /></header>
       <section><Slider /></section>
+      <section><AboutCards /></section>
     </body>
   )
 }
