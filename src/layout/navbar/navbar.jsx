@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <nav className="bg-white py-3 px-5 border-b border-slate-200 shadow">
-      <div className="mx-auto container max-w-[1250px]">
+      <div className="mx-auto container max-w-[1440px]">
         <div className="flex justify-between items-center">
           {/* logo */}
           <a href="">
