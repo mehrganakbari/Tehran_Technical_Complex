@@ -8,7 +8,7 @@ import educationalCalendar from "/src/assets/images/p1.svg";
 function AboutCards() {
   return (
     <div className="bg-[#FAFAFA] py-10 px-5">
-      <div className="container mx-auto max-w-[1250px] grid grid-cols-4 gap-5">
+      <div className="container mx-auto max-w-[1440px] grid md:grid-cols-2 2xl:grid-cols-4 gap-5">
         <div className="">
           <div className="mx-auto w-72 py-5 px-3 bg-white border border-slate-500 rounded-xl">
             <img src={educationalCalendar} alt=""  className="mx-auto"/>

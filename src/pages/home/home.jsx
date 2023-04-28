@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Navbar from "../../layout/navbar/navbar";
 import AboutCards from "./layout/aboutCards/about_cards";
 import Departments from "./layout/Departments/Departments";
+import Footer from "../../layout/footer/footer";
 import ImageOne from "/src/assets/images/one.jpeg";
 import ImageTwo from "/src/assets/images/two.jpeg";
 import ImageThree from "/src/assets/images/three.jpeg";
@@ -15,7 +16,7 @@ function Home() {
   return (
     <body>
       <Navbar />
-      <div className="container mx-auto max-w-[1440px] px-5">
+      <div className="container mx-auto max-w-[1440px]">
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={0}
@@ -37,6 +38,7 @@ function Home() {
       </div>
       <AboutCards />
       <Departments />
+      <Footer />
     </body>
   );
 }

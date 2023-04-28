@@ -7,6 +7,18 @@
 }
 
 .scrollbar-none {
-    -ms-overflow-style: none;  
-    scrollbar-width: none;  
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.bg-gradiat {
+    background: hsla(204, 15%, 94%, 1);
+
+    background: radial-gradient(circle, hsla(204, 15%, 94%, 1) 30%, hsla(200, 5%, 61%, 1) 100%);
+
+    background: -moz-radial-gradient(circle, hsla(204, 15%, 94%, 1) 30%, hsla(200, 5%, 61%, 1) 100%);
+
+    background: -webkit-radial-gradient(circle, hsla(204, 15%, 94%, 1) 30%, hsla(200, 5%, 61%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ECEFF1", endColorstr="#989EA1", GradientType=1);
 }
