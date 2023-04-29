@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../layout/navbar/navbar";
 import History from "./layout/history/history";
+import Honors from "./layout/honors/honors";
 
 function AboutUs() {
   return (
@@ -27,6 +28,7 @@ function AboutUs() {
           <source src="https://www.aparat.com/v/O7G8f" />
         </video>
         <History />
+        <Honors />
       </div>
     </body>
   );
