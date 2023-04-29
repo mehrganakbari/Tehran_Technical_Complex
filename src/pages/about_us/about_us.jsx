@@ -3,6 +3,9 @@ import Navbar from "../../layout/navbar/navbar";
 import History from "./layout/history/history";
 import Honors from "./layout/honors/honors";
 import Ideals from "./layout/ideals/ideals";
+import Awards from "./layout/awards/awards";
+import Map from "../../components/map/map";
+import Footer from "../../layout/footer/footer";
 
 function AboutUs() {
   return (
@@ -31,7 +34,10 @@ function AboutUs() {
         <History />
         <Honors />
         <Ideals />
+        <Awards />
+        <Map />
       </div>
+      <Footer />
     </body>
   );
 }
