@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../layout/navbar/navbar";
 import History from "./layout/history/history";
 import Honors from "./layout/honors/honors";
+import Ideals from "./layout/ideals/ideals";
 
 function AboutUs() {
   return (
@@ -29,6 +30,7 @@ function AboutUs() {
         </video>
         <History />
         <Honors />
+        <Ideals />
       </div>
     </body>
   );
