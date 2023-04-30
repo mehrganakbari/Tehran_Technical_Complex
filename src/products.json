@@ -1,0 +1,64 @@
+{
+    "data": [
+        {
+            "title": "Web Design ||| (javascript & jQuery & Ajax)",
+            "location": "سعادت آباد (مرکزی)",
+            "isOnline": true,
+            "isHozori": false,
+            "imageSrc": "/src/assets/images/shop/Web3.png",
+            "category": "فناوری اطلاعات و ارتباطات",
+            "date": "تاریخ شروع یکشنبه ۱۰ اردیبهشت ۱۴۰۲",
+            "max": 5,
+            "teacher": "نسیم اخلاقی",
+            "price": "۴۸,۰۰۰,۰۰۰ ریال"
+        },
+        {
+            "title": "Web Design II (Responsive design with bootstrap , Less & Sass) ",
+            "location": "میرداماد",
+            "isOnline": false,
+            "isHozori": true,
+            "imageSrc": "/src/assets/images/shop/Web2.png",
+            "category": "فناوری اطلاعات و ارتباطات",
+            "date": "تاریخ شروع یکشنبه ۱۰ اردیبهشت ۱۴۰۲",
+            "max": 10,
+            "teacher": "مشخص نشده",
+            "price": "۲۵,۰۰۰,۰۰۰ ریال"
+        },
+        {
+            "title": "Web Design I ( HTML5, CSS3 with Dreamweaver)",
+            "location": "سیدخندان",
+            "isOnline": false,
+            "isHozori": true,
+            "imageSrc": "/src/assets/images/shop/Web1.png",
+            "category": "فناوری اطلاعات و ارتباطات",
+            "date": "تاریخ شروع دوشنبه ۱۱ اردیبهشت ۱۴۰۲",
+            "max": 10,
+            "teacher": "مشخص نشده",
+            "price": "۳۲,۶۰۰,۰۰۰ ریال"
+        },
+        {
+            "title": "Web Design Pack",
+            "location": "تهرانپارس",
+            "isOnline": true,
+            "isHozori": true,
+            "imageSrc": "/src/assets/images/shop/Webpack.png",
+            "category": "فناوری اطلاعات و ارتباطات",
+            "date": "تاریخ شروع دوشنبه ۱۱ اردیبهشت ۱۴۰۲",
+            "max": 6,
+            "teacher": "مشخص نشده",
+            "price": "۹۶,۰۰۰,۰۰۰ ریال"
+        },
+        {
+            "title": "Wordpress & SEO PACK",
+            "location": "سعادت آباد (مرکزی)",
+            "isOnline": true,
+            "isHozori": true,
+            "imageSrc": "/src/assets/images/shop/WpandSeo.png",
+            "category": "فناوری اطلاعات و ارتباطات",
+            "date": "تاریخ شروع یکشنبه ۱۰ اردیبهشت ۱۴۰۲",
+            "max": 8,
+            "teacher": "مشخص نشده",
+            "price": ""
+        }
+    ]
+}
