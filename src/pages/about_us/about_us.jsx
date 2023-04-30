@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../layout/navbar/navbar";
+import Video from "../../components/video/video"; 
 import History from "./layout/history/history";
 import Honors from "./layout/honors/honors";
 import Ideals from "./layout/ideals/ideals";
@@ -28,9 +29,7 @@ function AboutUs() {
           </svg>
           <span className="font-medium text-xl">معرفی مجتمع فنی تهران</span>
         </div>
-        <video controls poster="" className="w-full mb-10">
-          <source src="https://www.aparat.com/v/O7G8f" />
-        </video>
+        <Video />
         <History />
         <Honors />
         <Ideals />
