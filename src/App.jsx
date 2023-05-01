@@ -1,5 +1,10 @@
 import React from "react";
-import { RouterProvider, createBrowserRouter, Route } from "react-router-dom";
+import {
+  RouterProvider,
+  createBrowserRouter,
+  Route,
+  Outlet,
+} from "react-router-dom";
 import Home from "./pages/home/home";
 import AboutUs from "./pages/about_us/about_us";
 import ContactUs from "./pages/contact_us/contact_us";
@@ -14,24 +19,35 @@ export default function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home />,
-    },
-    {
-      path: "/about-us",
-      element: <AboutUs />,
-    },
-    {
-      path: "/contact-us",
-      element: <ContactUs />,
-    },
-    {
-      path: "/shop",
-      element: <Shop />,
+      element: <NavbarWrapper />,
+      children: [
+        {
+          path: "/",
+          element: <Home />,
+        },
+        {
+          path: "/about-us",
+          element: <AboutUs />,
+        },
+        {
+          path: "/contact-us",
+          element: <ContactUs />,
+        },
+        {
+          path: "/shop",
+          element: <Shop />,
+        },
+      ],
     },
   ]);
+  return <RouterProvider router={router}></RouterProvider>;
+}
+
+function NavbarWrapper() {
   return (
-    <RouterProvider router={router} >
+    <>
       <Navbar />
-    </RouterProvider>
+      <Outlet />
+    </>
   );
 }
