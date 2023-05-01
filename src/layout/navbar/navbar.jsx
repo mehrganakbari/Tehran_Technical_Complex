@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "/src/index.css";
 import logo from "/src/assets/images/mftlogo.png";
 
@@ -18,26 +19,26 @@ function Navbar() {
           </a>
           {/* links */}
           <ul className="hidden sm:flex">
-            <a href="">
+            <Link to="/">
               <li className="py-4 px-5 text-slate-500 transition-all duration-300 hover:bg-slate-50 hover:shadow hover:border-b hover:border-slate-400">
                 خانه
               </li>
-            </a>
-            <a href="">
+            </Link>
+            <Link to="/shop">
               <li className="py-4 px-5 text-slate-500 transition-all duration-300 hover:bg-slate-50 hover:shadow hover:border-b hover:border-slate-400">
                 محصولات
               </li>
-            </a>
-            <a href="">
+            </Link>
+            <Link to="/about-us">
               <li className="py-4 px-5 text-slate-500 transition-all duration-300 hover:bg-slate-50 hover:shadow hover:border-b hover:border-slate-400">
                 درباره ما
               </li>
-            </a>
-            <a href="">
+            </Link>
+            <Link to="contact-us">
               <li className="py-4 px-5 text-slate-500 transition-all duration-300 hover:bg-slate-50 hover:shadow hover:border-b hover:border-slate-400">
                 تماس با ما
               </li>
-            </a>
+            </Link>
           </ul>
           {/* search Box -> desktop */}
           <div className="w-1/3 bg-Stone-100 px-3 py-2 rounded-lg border border-Gray-200 items-center hidden lg2:flex gap-2">

@@ -5,7 +5,6 @@ import Products from "./layout/products/products";
 function Shop() {
   return (
     <body>
-      <Navbar />
       <Products />
     </body>
   );

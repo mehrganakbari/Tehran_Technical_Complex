@@ -5,13 +5,6 @@ import data from "../../../../products.json";
 
 function Products() {
   useEffect(() => {}, []);
-  function handelStatus() {
-    if (data.data[0].isHozori == true) {
-      data.data[0].isHozori = "حضوری";
-    } else if (data.data[0].isOnline == true) {
-      data.data[0].isHozori = "آنلاین";
-    }
-  }
 
   return (
     <div className="mx-auto container max-w-[1440px] py-10 px-5">

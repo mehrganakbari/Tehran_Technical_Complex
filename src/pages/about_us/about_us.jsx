@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../../layout/navbar/navbar";
 import Video from "../../components/video/video"; 
 import History from "./layout/history/history";
 import Honors from "./layout/honors/honors";
@@ -11,7 +10,6 @@ import Footer from "../../layout/footer/footer";
 function AboutUs() {
   return (
     <body>
-      <Navbar />
       <div className="px-5 mx-auto container max-w-[1440px]">
         <div className="flex gap-3 mt-10 mb-3 items-center">
           <svg

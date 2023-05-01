@@ -1,7 +1,6 @@
 import React from "react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Navbar from "../../layout/navbar/navbar";
 import AboutCards from "./layout/aboutCards/about_cards";
 import Departments from "./layout/Departments/Departments";
 import Footer from "../../layout/footer/footer";
@@ -15,7 +14,6 @@ import "swiper/css/pagination";
 function Home() {
   return (
     <body>
-      <Navbar />
       <div className="container mx-auto max-w-[1440px]">
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
