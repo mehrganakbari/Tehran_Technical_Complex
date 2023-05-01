@@ -10,6 +10,7 @@ import AboutUs from "./pages/about_us/about_us";
 import ContactUs from "./pages/contact_us/contact_us";
 import Shop from "./pages/shop/shop";
 import Navbar from "./layout/navbar/navbar";
+import Footer from "./layout/footer/footer";
 
 // => Home => "./pages/home/home"
 // => AboutUs => "./pages/about_us/about_us"
@@ -48,6 +49,7 @@ function NavbarWrapper() {
     <>
       <Navbar />
       <Outlet />
+      <Footer />
     </>
   );
 }

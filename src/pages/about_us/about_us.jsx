@@ -5,7 +5,6 @@ import Honors from "./layout/honors/honors";
 import Ideals from "./layout/ideals/ideals";
 import Awards from "./layout/awards/awards";
 import Map from "../../components/map/map";
-import Footer from "../../layout/footer/footer";
 
 function AboutUs() {
   return (
@@ -34,7 +33,6 @@ function AboutUs() {
         <Awards />
         <Map />
       </div>
-      <Footer />
     </body>
   );
 }

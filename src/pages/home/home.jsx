@@ -3,7 +3,6 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import AboutCards from "./layout/aboutCards/about_cards";
 import Departments from "./layout/Departments/Departments";
-import Footer from "../../layout/footer/footer";
 import ImageOne from "/src/assets/images/one.jpeg";
 import ImageTwo from "/src/assets/images/two.jpeg";
 import ImageThree from "/src/assets/images/three.jpeg";
@@ -36,7 +35,6 @@ function Home() {
       </div>
       <AboutCards />
       <Departments />
-      <Footer />
     </body>
   );
 }
