@@ -1,10 +1,8 @@
 {
-    "data": [
-        {
+    "data": [{
             "title": "Web Design ||| (javascript & jQuery & Ajax)",
             "location": "سعادت آباد (مرکزی)",
-            "isOnline": true,
-            "isHozori": false,
+            "status": "آنلاین",
             "imageSrc": "/src/assets/images/shop/Web3.png",
             "category": "فناوری اطلاعات و ارتباطات",
             "date": "تاریخ شروع یکشنبه ۱۰ اردیبهشت ۱۴۰۲",
@@ -15,8 +13,7 @@
         {
             "title": "Web Design II (Responsive design with bootstrap , Less & Sass) ",
             "location": "میرداماد",
-            "isOnline": false,
-            "isHozori": true,
+            "status": "حضوری",
             "imageSrc": "/src/assets/images/shop/Web2.png",
             "category": "فناوری اطلاعات و ارتباطات",
             "date": "تاریخ شروع یکشنبه ۱۰ اردیبهشت ۱۴۰۲",
@@ -27,8 +24,7 @@
         {
             "title": "Web Design I ( HTML5, CSS3 with Dreamweaver)",
             "location": "سیدخندان",
-            "isOnline": false,
-            "isHozori": true,
+            "status": "حضوری",
             "imageSrc": "/src/assets/images/shop/Web1.png",
             "category": "فناوری اطلاعات و ارتباطات",
             "date": "تاریخ شروع دوشنبه ۱۱ اردیبهشت ۱۴۰۲",
@@ -39,8 +35,7 @@
         {
             "title": "Web Design Pack",
             "location": "تهرانپارس",
-            "isOnline": true,
-            "isHozori": true,
+            "status": "آنلاین",
             "imageSrc": "/src/assets/images/shop/Webpack.png",
             "category": "فناوری اطلاعات و ارتباطات",
             "date": "تاریخ شروع دوشنبه ۱۱ اردیبهشت ۱۴۰۲",
@@ -51,14 +46,46 @@
         {
             "title": "Wordpress & SEO PACK",
             "location": "سعادت آباد (مرکزی)",
-            "isOnline": true,
-            "isHozori": true,
+            "status": "آنلاین",
             "imageSrc": "/src/assets/images/shop/WpandSeo.png",
             "category": "فناوری اطلاعات و ارتباطات",
             "date": "تاریخ شروع یکشنبه ۱۰ اردیبهشت ۱۴۰۲",
             "max": 8,
             "teacher": "مشخص نشده",
             "price": "۴۵,۶۰۰,۰۰۰ ریال"
+        },
+        {
+            "title": "Python Web Development With Django",
+            "location": "سیدخندان",
+            "status": "حضوری",
+            "imageSrc": "/src/assets/images/shop/Django.png",
+            "category": "فناوری اطلاعات و ارتباطات",
+            "date": "تاریخ شروع پنجشنبه ۱۴ اردیبهشت ۱۴۰۲",
+            "max": 10,
+            "teacher": "مشخص نشده",
+            "price": "۳۰,۰۰۰,۰۰۰ ریال"
+        },
+        {
+            "title": "(آنلاین) Python Web Development With Django",
+            "location": "ونک",
+            "status": "آنلاین",
+            "imageSrc": "/src/assets/images/shop/DjangoOnline.png",
+            "category": "فناوری اطلاعات و ارتباطات",
+            "date": "تاریخ شروع دوشنبه ۱۱ اردیبهشت ۱۴۰۲",
+            "max": 6,
+            "teacher": "مشخص نشده",
+            "price": "۵۱,۰۰۰,۰۰۰ ریال"
+        },
+        {
+            "title": "دوره برنامه نویسی وب ( Full Stack Development) مبتنی بر Net.",
+            "location": "سعادت آباد (مرکزی)",
+            "status": "حضوری",
+            "imageSrc": "/src/assets/images/shop/fullStackDev.png",
+            "category": "فناوری اطلاعات و ارتباطات",
+            "date": " تاریخ شروع پنجشنبه ۲ شهریور ۱۴۰۲",
+            "max": 12,
+            "teacher": "مشخص نشده",
+            "price": "۹۶,۰۰۰,۰۰۰ ریال"
         }
     ]
 }
