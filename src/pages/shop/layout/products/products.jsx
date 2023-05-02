@@ -1,26 +1,18 @@
 import React, { useEffect } from "react";
-import "/src/index.css";
 import SearchBox from "../../../../components/search_box/Search_box";
-import data from "../../../../products.json";
+import data from "../../../../utils/products.json";
+import "/src/index.css";
 
 function Products() {
   useEffect(() => {}, []);
-  function handelStatus() {
-    if (data.data[0].isHozori == true) {
-      data.data[0].isHozori = "حضوری";
-    } else if (data.data[0].isOnline == true) {
-      data.data[0].isHozori = "آنلاین";
-    }
-  }
-
   return (
     <div className="mx-auto container max-w-[1440px] py-10 px-5">
-      <SearchBox />
+      <SearchBox id="apple" />
       <div
         id="productBox"
         className="flex justify-evenly md:justify-between my-5 gap-5 flex-wrap">
         {data.data.map((item) => (
-          <div className="relative w-72 border border-indigo-500 rounded-lg shadow-md cursor-pointer transition-all duration-300 hover:shadow-lg pb-12">
+          <div className="relative w-72 border border-indigo-500 rounded-lg shadow-md cursor-pointer transition-all duration-300 hover:shadow-xl pb-12">
             <img src={item.imageSrc} alt="" className="rounded-t-lg" />
             <div className="flex justify-between px-2">
               <div className="flex gap-1 items-center mt-2">
