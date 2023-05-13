@@ -7,7 +7,7 @@ function Products() {
   useEffect(() => {}, []);
   return (
     <div className="mx-auto container max-w-[1440px] py-10 px-5">
-      <SearchBox id="apple" />
+      <SearchBox />
       <div
         id="productBox"
         className="flex justify-evenly md:justify-between my-5 gap-5 flex-wrap">

@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import { Navigation, Pagination, Scrollbar, A11y, EffectFade} from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import AboutCards from "./layout/aboutCards/about_cards";
 import Departments from "./layout/Departments/Departments";
@@ -9,15 +9,17 @@ import ImageThree from "/src/assets/images/three.jpeg";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import 'swiper/css/effect-fade';
 
 function Home() {
   return (
-    <body>
+    <>
       <div className="container mx-auto max-w-[1440px]">
         <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
           spaceBetween={0}
           slidesPerView={1}
+          effect="fade"
           navigation
           pagination={{ clickable: true }}
           onSwiper={(swiper) => console.log(swiper)}
@@ -35,7 +37,7 @@ function Home() {
       </div>
       <AboutCards />
       <Departments />
-    </body>
+    </>
   );
 }
 
